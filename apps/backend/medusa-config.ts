@@ -66,7 +66,7 @@ module.exports = defineConfig({
       options: {
         providers: [
           {
-            resolve: '@mercurjs/resend',
+            resolve: "./src/services/resend.ts",
             id: 'resend',
             options: {
               channels: ['email'],
