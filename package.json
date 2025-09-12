@@ -22,5 +22,9 @@
     "lint": "turbo run lint",
     "codegen": "cd .",
     "generate:oas": "turbo run generate:oas"
+  },
+  "dependencies": {
+    "@react-email/components": "0.5.3",
+    "resend": "^6.0.3"
   }
 }
